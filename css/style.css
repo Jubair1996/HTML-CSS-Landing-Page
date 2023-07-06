@@ -25,13 +25,54 @@ nav {
 .menu-container li {
   list-style-type: none;
 }
-.menu-container a{
-    text-decoration: none;
-    color: #ffffff;
-    margin-left: 30px;
-    font-size: 20px;
+.menu-container a {
+  text-decoration: none;
+  color: #ffffff;
+  margin-left: 30px;
+  font-size: 20px;
 }
-.menu-container a:hover{
-    color: #ffff00;
+.menu-container a:hover {
+  color: #ffff00;
 }
 /* Header Section Ends */
+/* Banner Section Starts */
+
+.banner-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  color: #ffffff;
+  padding: 10px;
+  background-image: url("./image/background.png"),
+    linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner-title {
+  font-size: 54px;
+  font-weight: bold;
+}
+.banner-description {
+  font-size: 18px;
+  margin-top: 15px;
+}
+.banner-img img {
+  width: 300px;
+  height: 300px;
+}
+.btn {
+  margin-top: 20px;
+  padding: 13px 20px;
+  outline: none;
+  background-color: #ff0000;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+}
+.btn:hover{
+    background-color: #ffff00;
+    color: #000000;
+}
+/* Banner Section Ends */
