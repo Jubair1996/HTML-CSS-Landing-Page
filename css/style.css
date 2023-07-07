@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* Google Fonts Links */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
 /* Header Section Starts */
 nav {
   background-color: #424141;
@@ -101,8 +106,8 @@ nav {
   color: #ffffff;
 }
 .box {
-  width: 200px;
-  height: 320px;
+  width: 250px;
+  height: 310px;
   padding: 15px;
   text-align: center;
   box-shadow: 4px 2px 105px #dac8c8;
@@ -130,5 +135,70 @@ nav {
   justify-content: space-around;
   margin-top: 20px;
 }
-
 /* Services Section Ends */
+/* Footer Section Starts */
+footer {
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+  color: white;
+  padding: 150px 150px 20px 150px;
+  flex-wrap: wrap;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+.first img {
+  width: 200px;
+}
+.footer-icon {
+  display: flex;
+  margin-top: 20px;
+}
+.footer-icon > p > a {
+  text-decoration: none;
+  font-size: 50px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+.footer-icon > p > a:hover,
+.useful > a:hover {
+  color: #ffff00;
+}
+.second > h4,
+.third > h4,
+.four > h4 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.four > p {
+  margin-bottom: 10px;
+}
+.useful,
+.support,
+.info {
+  display: flex;
+  flex-direction: column;
+}
+.useful > a,
+.support > a,
+.info > a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+.info {
+  margin: 10px 0px;
+}
+
+hr {
+  width: 100%;
+  margin: 6rem 0 2rem 0;
+}
+.copy {
+  text-align: center;
+  font-size: 12px;
+}
+/* Footer Section Ends */
