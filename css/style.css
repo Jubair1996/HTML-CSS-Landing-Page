@@ -50,15 +50,18 @@ nav {
   background-position: center;
   background-size: cover;
 }
-.banner-title, .about-subtitle {
+.banner-title,
+.about-subtitle {
   font-size: 54px;
   font-weight: bold;
 }
-.banner-description, .about-description {
+.banner-description,
+.about-description {
   font-size: 18px;
   margin-top: 15px;
 }
-.banner-img img, .about-img img {
+.banner-img img,
+.about-img img {
   width: 300px;
   height: 300px;
 }
@@ -77,14 +80,15 @@ nav {
 }
 /* Banner Section Ends */
 /* About Section Starts */
-.about-container{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row-reverse;
-    padding: 25px;
+.about-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 25px;
 }
-.about-title {
+.about-title,
+.service-title {
   font-size: 54px;
   font-weight: bold;
   margin: 40px 0px;
@@ -92,5 +96,39 @@ nav {
 }
 /* About Section Ends */
 /* Services Section Starts */
+
+.service-title {
+  color: #ffffff;
+}
+.box {
+  width: 200px;
+  height: 320px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 4px 2px 105px #dac8c8;
+  border-radius: 10px;
+}
+.box-title {
+  padding: 10px;
+}
+.box-btn {
+  background-color: #1c1b1b;
+}
+.icon {
+  width: 70px;
+  color: #2e2e2e;
+}
+.service-container {
+  background-image: url("./images/background.png"),
+    linear-gradient(45deg, rgb(5, 5, 5), #2e2e2e);
+  color: white;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
 
 /* Services Section Ends */
